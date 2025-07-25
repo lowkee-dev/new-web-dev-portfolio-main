@@ -31,6 +31,21 @@ nav {
 nav h1 span{
     color: #22c55e;
     text-shadow: 0 0 20px #00ffae;
+    animation: glowText 2s ease-in-out infinite alternate;
+}
+@keyframes glowText{
+  from{
+    text-shadow: 0 0 10px #00ffae;
+    text-shadow: 0 0 20px #00ffae;
+    text-shadow: 0 0 30px #00ffae;
+    text-shadow: 0 0 40px #00ffae;
+  }
+  to{
+    text-shadow: 0 0 1px #00ffae;
+    text-shadow: 0 0 2px #00ffae;
+    text-shadow: 0 0 4px #00ffae;
+    text-shadow: 0 0 6px #00ffae;
+  }
 }
 .nav-list ul {
   display: flex;
@@ -55,6 +70,7 @@ nav h1 span{
   padding: 15px;
   color: #22c55e;
   text-shadow: 0 0 20px #00ffae;
+  animation: glowText 2s ease-in-out infinite alternate;
 }
 .header-content p {
   margin-bottom: 20px;
@@ -90,6 +106,7 @@ nav h1 span{
   margin-bottom: 25px;
   text-shadow: 0 0 20px #00ffae;
   font-size: 25px;
+  animation: glowText 2s ease-in-out infinite alternate;
 }
 .services {
   max-width: 100%;
@@ -147,6 +164,21 @@ nav h1 span{
   border-radius: 10px;
   background-color: #2a2a2a;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow{
+  from{
+    box-shadow: 0 0 10px #00ffae;
+    box-shadow: 0 0 20px #00ffae;
+    box-shadow: 0 0 30px #00ffae;
+    box-shadow: 0 0 40px #00ffae;
+  }
+  to{
+    box-shadow: 0 0 1px #00ffae;
+    box-shadow: 0 0 2px #00ffae;
+    box-shadow: 0 0 4px #00ffae;
+    box-shadow: 0 0 6px #00ffae;
+  }
 }
 .services .box1:hover{
     transform: scale(1.05);
@@ -159,6 +191,7 @@ nav h1 span{
   border-radius: 10px;
   background-color: #2a2a2a;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .services .box2:hover{
     transform: scale(1.05);
@@ -171,6 +204,7 @@ nav h1 span{
   border-radius: 10px;
   background-color: #2a2a2a;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .services .box3:hover{
     transform: scale(1.05);
@@ -183,6 +217,7 @@ nav h1 span{
   border-radius: 10px;
   background-color: #2a2a2a;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .services .box4:hover{
     transform: scale(1.05);
@@ -198,6 +233,7 @@ nav h1 span{
   margin-bottom: 10px;
   font-size: 25px;
   text-shadow: 0 0 20px #00ffae;
+  animation: glowText 2s ease-in-out infinite alternate;
 }
 .about-me span {
   margin-bottom: 10px;
@@ -218,6 +254,7 @@ nav h1 span{
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .about-me .icon2 a {
   color: #fff;
@@ -225,6 +262,7 @@ nav h1 span{
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .about-me .icon3 a {
   color: #fff;
@@ -232,6 +270,7 @@ nav h1 span{
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .about-me .icon4 a {
   color: #fff;
@@ -239,6 +278,7 @@ nav h1 span{
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 20px #00ffae;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .projects {
   background-color: #2e4c38;
@@ -250,6 +290,7 @@ nav h1 span{
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .project2 {
   max-width: 600px;
@@ -257,6 +298,7 @@ nav h1 span{
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  animation: glow 2s ease-in-out infinite alternate;
 }
 .project1 img {
   width: 600px;
@@ -422,18 +464,18 @@ footer {
 }
 
 .back-to-top {
-  background-color: #00ffae;
+  background-color: #2e4c38;
   position: fixed;
   bottom: 55px;
   right: 5px;
-  color: white;
+  color: #8f8c8c;
   padding: 10px;
   width: 43px;
   height: 43px;
   text-decoration: none;
   border-radius: 20px;
   font-size: 30px;
-  box-shadow: 0 0 20px #00ffae;
+  /* box-shadow: 0 0 20px #00ffae; */
 }
 
 .back-to-top:hover {
@@ -450,6 +492,7 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px #00ffae;
+    animation: glow 2s ease-in-out infinite alternate;
   }
   .foot-icons .icon2 a {
     color: #fff;
@@ -457,6 +500,7 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px #00ffae;
+    animation: glow 2s ease-in-out infinite alternate;
   }
   .foot-icons .icon3 a {
     color: #fff;
@@ -464,6 +508,7 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px #00ffae;
+    animation: glow 2s ease-in-out infinite alternate;
   }
   .foot-icons .icon4 a {
     color: #fff;
@@ -471,11 +516,12 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px #00ffae;
+    animation: glow 2s ease-in-out infinite alternate;
   }
 /* media */
 @media screen and (max-width: 1024px){
     footer{
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
 }
 @media screen and (max-width: 768px) {
